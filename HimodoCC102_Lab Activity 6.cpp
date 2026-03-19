@@ -76,7 +76,6 @@ int main() {
 
         cout << string(61, '-') << endl;
 
-        // Table rows
         for (int i = 0; i < num; i++) {
             cout << left
                  << setw(6)  << arr[i].studentID
